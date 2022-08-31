@@ -1,7 +1,6 @@
 {
   "name": "api-xaviercorporation",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,17 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.19"
-  }
+  },
+  "bin": {
+    "api-xaviercorporation": "bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danlicinio/CheckPointMicroservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Danlicinio/CheckPointMicroservice/issues"
+  },
+  "homepage": "https://github.com/Danlicinio/CheckPointMicroservice#readme",
+  "description": ""
 }
