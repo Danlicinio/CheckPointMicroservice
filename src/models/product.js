@@ -2,7 +2,7 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const schema = new Schema({
-    title: {
+    departamentos: {
         type: String,
         required: true,
         trim: true
@@ -12,7 +12,7 @@ const schema = new Schema({
         required: true,
         trim: true
     },
-    price: {
+    andar: {
         type: Number,
         required: true
     },
